@@ -4,7 +4,6 @@ function addElementToBeginningOfArray (someArray, element ) {
   return [ element, ...someArray]
 }
 function destructivelyAddElementToBeginningOfArray (someArray, element ) {
-//  var someArray = [ element, ...someArray];
   someArray.unshift(element);
   return someArray;
 }
@@ -17,7 +16,6 @@ function destructivelyAddElementToEndOfArray (someArray, element ) {
   someArray.push(element);
   return someArray;
 }
-
 
 function removeElementFromBeginningOfArray (someArray, element ) {
   someArray.slice(1);
