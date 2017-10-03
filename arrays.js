@@ -35,3 +35,11 @@ function destructivelyRemoveElementFromBeginningOfArray (someArray) {
   someArray.shift();
   return someArray;
 }
+
+
+function removeElementFromEndOfArray (someArray) {
+  someArray.slice(0, someArray.length - 1);
+  return someArray;
+}
+
+
