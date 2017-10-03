@@ -26,11 +26,9 @@ function destructivelyRemoveElementFromEndOfArray (someArray, element ) {
 }
 
 unction destructivelyRemoveElementFromBeginningOfArray (someArray) {
-  someArray.pop();
+  someArray.shift();
   return someArray;
 }
 function accessElementInArray(someArray, index)  {
   return someArray[index];
 }
-
-
