@@ -10,6 +10,6 @@ function destructivelyAddElementToBeginningOfArray (someArray, element ) {
 }
 
 function removeElementFromBeginningOfArray (someArray, element ) {
-  someArray.slice(-1);
-  return someArray.slice(-1);
+  someArray.slice(1);
+  return someArray.slice(1);
 }
