@@ -28,8 +28,6 @@ function destructivelyRemoveElementFromEndOfArray (someArray, element ) {
   return someArray;
 }
 
-
-
 function accessElementInArray(someArray, index)  {
   return someArray[index];
 }
