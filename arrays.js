@@ -8,3 +8,8 @@ function destructivelyAddElementToBeginningOfArray (someArray, element ) {
   someArray.unshift(element);
   return someArray;
 }
+
+function destructivelyAddElementToBeginningOfArray (someArray, element ) {
+  someArray.pop();
+  return someArray;
+}
