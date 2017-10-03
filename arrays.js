@@ -13,3 +13,7 @@ function removeElementFromBeginningOfArray (someArray, element ) {
   someArray.slice(1);
   return someArray.slice(1);
 }
+function destructivelyRemoveElementFromEndOfArray (someArray, element ) {
+  someArray.pop();
+  return someArray;
+}
