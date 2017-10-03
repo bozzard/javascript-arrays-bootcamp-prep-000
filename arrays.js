@@ -9,7 +9,7 @@ function destructivelyAddElementToBeginningOfArray (someArray, element ) {
   return someArray;
 }
 
-function destructivelyAddElementToBeginningOfArray (someArray, element ) {
-  someArray.pop();
-  return someArray;
+function removeElementFromBeginningOfArray (someArray, element ) {
+  someArray.slice(-1);
+  return someArray.slice(-1);
 }
