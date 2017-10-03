@@ -27,3 +27,12 @@ function destructivelyRemoveElementFromEndOfArray (someArray, element ) {
   someArray.pop();
   return someArray;
 }
+
+
+
+function accessElementInArray(someArray, index)  {
+  
+  return someArray[index];
+}
+
+
