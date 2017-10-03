@@ -25,10 +25,7 @@ function destructivelyRemoveElementFromEndOfArray (someArray, element ) {
   return someArray;
 }
 
-unction destructivelyRemoveElementFromBeginningOfArray (someArray) {
-  someArray.shift();
-  return someArray;
-}
+
 function accessElementInArray(someArray, index)  {
   return someArray[index];
 }
